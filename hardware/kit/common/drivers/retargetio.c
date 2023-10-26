@@ -38,8 +38,8 @@
  * @{
  ******************************************************************************/
 
-extern int RETARGET_ReadChar(void);
-extern int RETARGET_WriteChar(char c);
+int RETARGET_ReadChar(void);
+int RETARGET_WriteChar(char c);
 
 #if !defined(__CROSSWORKS_ARM) && defined(__GNUC__)
 
