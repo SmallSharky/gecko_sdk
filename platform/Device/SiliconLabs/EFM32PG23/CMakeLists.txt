@@ -7,7 +7,6 @@ add_library(
     gecko-device-efm32pg23-nostart
     OBJECT
     Source/system_efm32pg23.c
-    # Source/GCC/startup_efm32pg23.S
 )
 
 
@@ -35,7 +34,4 @@ target_link_libraries(
     gecko-device-efm32pg23-headers
     INTERFACE
     gecko-platform-cmsis
-#     PRIVATE
-#     gecko-platform-emlib
-
 )

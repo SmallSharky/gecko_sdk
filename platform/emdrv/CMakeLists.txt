@@ -3,7 +3,7 @@
 
 add_library(
     gecko-platform-emdrv
-    STATIC
+    STATIC EXCLUDE_FROM_ALL
     dmadrv/src/dmactrl.c
     dmadrv/src/dmadrv.c
 )

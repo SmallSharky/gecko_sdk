@@ -3,7 +3,7 @@
 
 add_library(
     gecko-platform-emlib
-    STATIC
+    STATIC EXCLUDE_FROM_ALL
     src/em_wdog.c
     src/em_csen.c
     src/em_idac.c
